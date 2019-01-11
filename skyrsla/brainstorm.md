@@ -1,3 +1,5 @@
 ## Hugflæði (Brainstorm)
-Hér skráið þið allar hugmyndir um verkefni sem þið fáið, munið að engin hugmynd er vitlaus.  
-Þegar þið eruð komin með 10 eða fleiri hugmyndir skulið þið velja þá sem ykkur líst best á. 
+* Naut: Róbotinn keyrir á allt sem er rautt.
+* Njósnabot: Eltir manneskjur.
+* Þjónabot: Kemur með hluti til þín eins og glös.
+* Sorterbot: Sorterar hluti eftir litum.
