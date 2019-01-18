@@ -11,4 +11,6 @@ Myndin er af högun kerfis sem ég gerði fyrir arduino, ekki nota hana, hannið
 - Robotinn sækir hluti og kemur með hlutinn til þín
 - Save-ar leiðina í array
 
+Við ættlum að gera V5 robot í C++. Planið er að útfæra robot sem finnur hlut í herbergi sem er af sérstökum lit og kemur kátur til baka á staðinn sem hann byrjaði á. Við ættlum að nota myndavélina sem fylgir með V5 robotnum til að finna hlutinn, ættlum að nota myndavélina til að ferðast um og ekki klessa á en ef það er ekki hægt þá skulum við nota ultra sonic sensor.
+
 ![Mynd af högun kerfis](https://github.com/eirben/rob2b3u/blob/master/skyrsla/img/system.png)
