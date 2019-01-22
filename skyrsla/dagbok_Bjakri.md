@@ -3,3 +3,6 @@
 
 ## 18.01.2019
 ### Í dag byrjuðum við á skýrslunni
+
+## 22.01.2019
+### lærðum um V5 og VEX coding umhverfið
