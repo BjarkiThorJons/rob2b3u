@@ -3,3 +3,6 @@
 
 ## 18.1.19
 ### Við byrjuðum á lýsinguni.
+
+## 22.1.19
+### Í dag las ég um vex og möguleikana sem v5 kemur með sér
