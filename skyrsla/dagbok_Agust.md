@@ -6,3 +6,9 @@
 
 ## 22.1.19
 ### Í dag las ég um vex og möguleikana sem v5 kemur með sér
+
+## 1.2.19
+### Í dag hélt ég áfram með skýrsluna
+
+## 5.2.19
+### Í dag gerðum við tímaplan XD
