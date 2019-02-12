@@ -9,3 +9,6 @@
 
 ## 5.02.2019
 ### Gerðum tímaplan
+
+## 9.02.2019
+### Gerðum clawbot tilbúinn fyrir UT messuna
