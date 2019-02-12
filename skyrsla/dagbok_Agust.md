@@ -12,3 +12,6 @@
 
 ## 5.2.19
 ### Í dag gerðum við tímaplan XD
+
+## 8.2.19
+### Í dag vorum við Bjarki að undirbúa clawbot robotinn til að fara með hann á UTmessuna
