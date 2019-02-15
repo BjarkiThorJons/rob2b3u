@@ -15,3 +15,6 @@
 
 ## 8.2.19
 ### Í dag vorum við Bjarki að undirbúa clawbot robotinn til að fara með hann á UTmessuna
+
+## 15.2.19
+### Í dag kláruðum skýrsluna og skoðuðum vex coding studio-ið
