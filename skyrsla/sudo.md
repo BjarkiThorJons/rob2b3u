@@ -3,12 +3,13 @@ Hér skal gera flæðirit og sauðakóða nýtið ykkur https://draw.io. Þegar 
 
 Sauðakóða dæmi:
 ```
-loop forewer{
-  drive(until done)
-  ArmUp(30)
-  armDon(30)
-  clawOpen()
-}
+leita af hlut
+finna hlut
+keyra að hlut og passa að klessa ekki á
+taka upp hlut með kló
+vista leið í lista
+fylgja leið tl baka
+koma með hlut til baka
  ```
 
 ![Flæðirit](./img/flowchart.png)
