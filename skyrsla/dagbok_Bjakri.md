@@ -12,3 +12,6 @@
 
 ## 9.02.2019
 ### Gerðum clawbot tilbúinn fyrir UT messuna
+
+## 15.02.2019
+### Byrjuðum á sauðakóða, kláruðum skýrsluna og skoðuðum vex coding studio
