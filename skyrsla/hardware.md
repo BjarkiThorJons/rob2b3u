@@ -11,7 +11,7 @@ V5 Vélbúnaður
 * 1 V5 Vision sensor
 
 ![Mynd og litagreinir](./img/visionsensor.jpg)
-
+![V5 robot](./img/V5robot.jpg)
 
 
 Hérna er kittið sem við erum að nota:
