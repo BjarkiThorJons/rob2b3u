@@ -1,8 +1,4 @@
 ## Vélbúnaður
-Hér skal gera töflu eða lista yfir allan búnað sem notaður er gott væri að þið nýttuð ykkur töfluna hér fyrir neðan:
-
-![Mynd og litagreinir](./img/visionsensor.jpg)
-
 V5 Vélbúnaður
 * 1 V5 Robot Brain
 * 1 V5 Controller
@@ -13,6 +9,10 @@ V5 Vélbúnaður
 * 4 V5 Smart Motors
 * 1 Bumper Switch v2
 * 1 V5 Vision sensor
+
+![Mynd og litagreinir](./img/visionsensor.jpg)
+
+
 
 Hérna er kittið sem við erum að nota:
 https://www.vexrobotics.com/vexedr/products/v5-products/276-6500.html#Kit_Contents
