@@ -12,4 +12,4 @@ fylgja leið tl baka
 koma með hlut til baka
  ```
 
-![Flæðirit](./img/flowchart.png)
+![Flæðirit](./img/diagram.png)
