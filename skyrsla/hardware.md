@@ -5,7 +5,7 @@
   | Controller | 1 | ![Fjarstýring](./img/controller.jpg) |
   | Robot Battery | 1 |  ![Battery](./img/battery.jpg) |
   | Robot Battery Cable | 1 |   |
-  | Robot Battery Charger |  1|   |
+  | Robot Battery Charger |  1| ![Hlaðari](./img/charger.jpg)  |
   | Smart Motors | 4 |  ![Mótor](./img/motor.jpg) |
   | Bumper Switch v2 | 1 |  ![Bumper switch](./img/bumper.jpg) |
   | Vision sensor | 1 |  ![Mynd og litagreinir](./img/visionsensor.jpg) |
