@@ -1,4 +1,15 @@
 ## Vélbúnaður
+ | rafbúnaður | Magn | Viðnám |
+  | --- | --- | --- |
+  | Robot Brain | 1 |   | 
+  | Controller | 1 |  |
+  | Robot Battery | 1 |   |
+  | Robot Battery Cable | 1 |   |
+  | Robot Battery Charger |  1|   |
+  | Smart Motors | 4 |   |
+  | Bumper Switch v2 | 1 |   |
+  | Vision sensor | 1 |  ![Mynd og litagreinir](./img/visionsensor.jpg) |
+  
 V5 Vélbúnaður
 * 1 V5 Robot Brain
 * 1 V5 Controller
