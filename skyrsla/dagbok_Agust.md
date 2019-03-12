@@ -18,3 +18,18 @@
 
 ## 15.2.19
 ### Í dag kláruðum skýrsluna og skoðuðum vex coding studio-ið
+
+## 19.2.19
+### Byrjuðum samsetningu á robot
+
+## 1.3.19
+### Kláruðum samsetningu á robot
+
+## 5.3.19
+### Prófuðum forritunar umhverfið og prufukeyrðum prufukóða
+
+## 8.3.19
+### Settum visionið á og prufuðum það og gerðum snúru fyrir það
+
+## 12.3.19
+### Ég gerði flowchartið
