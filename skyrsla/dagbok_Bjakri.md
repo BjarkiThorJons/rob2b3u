@@ -15,3 +15,18 @@
 
 ## 15.02.2019
 ### Byrjuðum á sauðakóða, kláruðum skýrsluna og skoðuðum vex coding studio
+
+## 19.02.2019
+### Byrjuðum á samsettningu á robot
+
+## 01.03.2019
+### Kláruðum að setja saman robitinn
+
+## 05.03.2019
+### Prófuðum forritunar umhverfið vex coding studio fyrir robitinn og prufu keyrðum hann
+
+## 08.03.2019
+### Settum visionisensor á robotinn, gerðum snúru fyrir visionið og prufuðum það
+
+### 12.03.2019
+### Ég gerði vélbúnaða skýrsluna
