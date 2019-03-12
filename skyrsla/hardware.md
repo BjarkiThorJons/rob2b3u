@@ -1,14 +1,14 @@
 ## Vélbúnaður
  | rafbúnaður | Magn | Myndir |
   | --- | --- | --- |
-  | Robot Brain | 1 |  ![Heili](./img/robotbrain.jpg) | 
-  | Controller | 1 | ![Fjarstýring](./img/controller.jpg) |
-  | Robot Battery | 1 |  ![Battery](./img/battery.jpg) |
+  | Robot Brain | 1 |  <img src="./img/robotbrain.jpg" width="400" height="400"> | 
+  | Controller | 1 | <img src="./img/controller.jpg" width="400" height="400"> |
+  | Robot Battery | 1 |  <img src="./img/battery.jpg" width="400" height="400">  |
   | Robot Battery Cable | 1 |   |
-  | Robot Battery Charger |  1| ![Hlaðari](./img/charger.jpg)  |
-  | Smart Motors | 4 |  ![Mótor](./img/motor.jpg) |
-  | Bumper Switch v2 | 1 |  ![Bumper switch](./img/bumper.jpg) |
-  | Vision sensor | 1 |  ![Mynd og litagreinir](./img/visionsensor.jpg) |
+  | Robot Battery Charger |  1| <img src="./img/charger.jpg" width="400" height="400">   |
+  | Smart Motors | 4 |  <img src="./img/motor.jpg" width="400" height="400"> |
+  | Bumper Switch v2 | 1 |  <img src="./img/bumper.jpg" width="400" height="400">  |
+  | Vision sensor | 1 |  <img src="./img/visionsensor.jpg" width="400" height="400">  |
   
 ![V5 robot](./img/V5robot.jpg)
 
