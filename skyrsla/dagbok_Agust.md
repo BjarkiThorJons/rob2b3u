@@ -33,3 +33,6 @@
 
 ## 12.3.19
 ### Ég gerði flowchartið
+
+## 15.3.19
+### Í dag létum við robban elta bláan bolta með vision sensornum
