@@ -30,3 +30,6 @@
 
 ### 12.03.2019
 ### Ég gerði vélbúnaða skýrsluna
+
+### 15.03.2018
+### Við létum róbotinn elta blánn bolta með vision sensornum
