@@ -36,3 +36,6 @@
 
 ## 15.3.19
 ### Í dag létum við robban elta bláan bolta með vision sensornum
+
+## 19.3.19
+### Við betrum bættum það að elta bolta
