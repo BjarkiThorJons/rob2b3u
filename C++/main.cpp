@@ -2,7 +2,7 @@
 
 int main() {
 while (true) {
-    Vision.takeSnapshot(SIG_7);
+    Vision.takeSnapshot(SIG_2);
     if (Vision.largestObject.exists && Vision.largestObject.width>5) {
         Brain.Screen.setPenColor(vex::color::white);
         Brain.Screen.setFillColor(vex::color::blue);
