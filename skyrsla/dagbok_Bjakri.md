@@ -33,3 +33,6 @@
 
 ### 15.03.2018
 ### Við létum róbotinn elta blánn bolta með vision sensornum
+
+### 19.03.2018
+### Unnum meira með að láta hann elta bolta
