@@ -28,11 +28,14 @@
 ## 08.03.2019
 ### Settum visionisensor á robotinn, gerðum snúru fyrir visionið og prufuðum það
 
-### 12.03.2019
+## 12.03.2019
 ### Ég gerði vélbúnaða skýrsluna
 
-### 15.03.2018
+## 15.03.2018
 ### Við létum róbotinn elta blánn bolta með vision sensornum
 
-### 19.03.2018
+## 19.03.2018
 ### Unnum meira með að láta hann elta bolta
+
+## 26.03.2018
+### Náðum að láta robotinn taka upp bolta
