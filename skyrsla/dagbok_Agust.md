@@ -39,3 +39,6 @@
 
 ## 19.3.19
 ### Við betrum bættum það að elta bolta
+
+## 26.3.19
+### Náðum nokkurn veginn að taka upp bolta
