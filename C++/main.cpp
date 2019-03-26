@@ -4,7 +4,8 @@ void taka(){
     Motor2.spin(directionType::fwd,50,velocityUnits::rpm);
 }
 int main() {
-while (true) {
+bool s=true;
+while (s) {
     Vision.takeSnapshot(SIG_7);
     if (Vision.largestObject.exists && Vision.largestObject.width>5) {
         Brain.Screen.setPenColor(vex::color::white);
@@ -15,10 +16,16 @@ while (true) {
         Brain.Screen.print("Forward");
         if (Vision.largestObject.centerX>130 && Vision.largestObject.centerX<160){
             if (Vision.largestObject.centerY > 150){
-                Motor1.spin(directionType::fwd,30,velocityUnits::rpm);
-                Motor2.spin(directionType::fwd,30,velocityUnits::rpm);
-                Motor1.spin(directionType::rev,30,velocityUnits::rpm);
-                Motor2.spin(directionType::fwd,30,velocityUnits::rpm);
+                Klo.rotateTo(220,rotationUnits::deg,10,velocityUnits::pct);
+                Motor1.rotateTo(60,rotationUnits::deg,10,velocityUnits::pct);
+                Motor2.spin(vex::directionType::rev,20,velocityUnits::pct);
+                Motor1.spin(vex::directionType::fwd,20,velocityUnits::pct);
+                task::sleep(1000);
+                Klo.rotateTo(0,rotationUnits::deg,10,velocityUnits::pct);
+                task::sleep(500);
+                Motor1.stop();
+                Motor2.stop();
+                s=false;
             }
             else if (Vision.largestObject.centerY>140 && Vision.largestObject.centerY < 150){
                 Motor2.spin(vex::directionType::rev,10,velocityUnits::pct);
