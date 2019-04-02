@@ -42,3 +42,6 @@
 
 ## 26.3.19
 ### Náðum nokkurn veginn að taka upp bolta
+
+## 2.4.19
+### Hættum að geta tekið upp bolta
