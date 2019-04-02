@@ -15,9 +15,11 @@ while (s) {
         Brain.Screen.setFont(vex::fontType::mono40);
         Brain.Screen.print("Forward");
         if (Vision.largestObject.centerX>130 && Vision.largestObject.centerX<160){
-            if (Vision.largestObject.centerY > 150){
-                Klo.rotateTo(220,rotationUnits::deg,10,velocityUnits::pct);
-                Motor1.rotateTo(60,rotationUnits::deg,10,velocityUnits::pct);
+            if (Vision.largestObject.width > 70){
+                Motor2.spin(vex::directionType::fwd,7,velocityUnits::pct);
+                Motor1.spin(vex::directionType::fwd,7,velocityUnits::pct);
+                task::sleep(100);
+                Klo.rotateTo(180,rotationUnits::deg,10,velocityUnits::pct);
                 Motor2.spin(vex::directionType::rev,20,velocityUnits::pct);
                 Motor1.spin(vex::directionType::fwd,20,velocityUnits::pct);
                 task::sleep(1000);
@@ -36,10 +38,12 @@ while (s) {
                 Motor1.spin(vex::directionType::fwd,50,velocityUnits::pct);
             }
         }
+        //turn left
         else if(Vision.largestObject.centerX>160){
             Motor2.spin(vex::directionType::fwd,7,velocityUnits::pct);
             Motor1.spin(vex::directionType::fwd,7,velocityUnits::pct);
         }
+        //turn right
         else if(Vision.largestObject.centerX<130){
             Motor2.spin(vex::directionType::rev,7,velocityUnits::pct);
             Motor1.spin(vex::directionType::rev,7,velocityUnits::pct);
