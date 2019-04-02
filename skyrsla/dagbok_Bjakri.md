@@ -39,3 +39,6 @@
 
 ## 26.03.2018
 ### Náðum að láta robotinn taka upp bolta
+
+## 2.04.2018
+### Hætti að geta tekið upp bolta, reydnum að laga
