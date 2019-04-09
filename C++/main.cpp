@@ -1,8 +1,6 @@
 #include "robot-config.h"
-void taka(){
-    Motor1.spin(directionType::rev,50,velocityUnits::rpm);
-    Motor2.spin(directionType::fwd,50,velocityUnits::rpm);
-}
+std::list<string> baka;
+std::list<int>::iterator it;
 int main() {
 bool s=true;
 while (s) {
@@ -26,7 +24,7 @@ while (s) {
                 Klo.rotateTo(0,rotationUnits::deg,10,velocityUnits::pct);
                 Motor1.stop();
                 Motor2.stop();
-                s=false;
+                break;
             }
             else if (Vision.largestObject.width > 50){
                 Motor2.spin(vex::directionType::rev,10,velocityUnits::pct);
@@ -57,3 +55,6 @@ while (s) {
     task::sleep(100);
 }
 }
+
+Motor2.spin(vex::directionType::fwd,50,velocityUnits::pct);
+Motor1.spin(vex::directionType::rev,50,velocityUnits::pct);
