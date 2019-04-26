@@ -31,14 +31,17 @@
 ## 12.03.2019
 ### Ég gerði vélbúnaða skýrsluna
 
-## 15.03.2018
+## 15.03.2019
 ### Við létum róbotinn elta blánn bolta með vision sensornum
 
-## 19.03.2018
+## 19.03.2019
 ### Unnum meira með að láta hann elta bolta
 
-## 26.03.2018
+## 26.03.2019
 ### Náðum að láta robotinn taka upp bolta
 
-## 2.04.2018
+## 02.04.2019
 ### Hætti að geta tekið upp bolta, reydnum að laga
+
+## 26.04.2019
+### Kláruðum verkefnið og tókum það upp
