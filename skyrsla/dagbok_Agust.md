@@ -45,3 +45,6 @@
 
 ## 2.4.19
 ### Hættum að geta tekið upp bolta
+
+## 26.4.19
+### Kláruðum verkefnið og tókum það upp
