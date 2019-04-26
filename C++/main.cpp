@@ -1,6 +1,4 @@
 #include "robot-config.h"
-std::list<string> baka;
-std::list<int>::iterator it;
 int main() {
 bool s=true;
 while (s) {
@@ -21,7 +19,7 @@ while (s) {
                 Motor2.spin(vex::directionType::rev,20,velocityUnits::pct);
                 Motor1.spin(vex::directionType::fwd,20,velocityUnits::pct);
                 task::sleep(500);
-                Klo.rotateTo(0,rotationUnits::deg,10,velocityUnits::pct);
+                Klo.rotateTo(92,rotationUnits::deg,10,velocityUnits::pct);
                 Motor1.stop();
                 Motor2.stop();
                 break;
@@ -55,6 +53,3 @@ while (s) {
     task::sleep(100);
 }
 }
-
-Motor2.spin(vex::directionType::fwd,50,velocityUnits::pct);
-Motor1.spin(vex::directionType::rev,50,velocityUnits::pct);
