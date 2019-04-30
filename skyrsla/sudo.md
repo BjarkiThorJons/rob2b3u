@@ -1,7 +1,5 @@
 # Flæðirit og sauðakóði
-Hér skal gera flæðirit og sauðakóða nýtið ykkur https://draw.io. Þegar þið hafið lokið að gera flæðiritið farið í export-image og vistið grafið í skyrsla/img meðnafni "flowhart". í Þessu skjali skuluð þið gera sauðakóða 
-
-Sauðakóða dæmi:
+## Sauðakóðinn okkar:
 ```
 leita af hlut
 finna hlut
@@ -11,5 +9,5 @@ vista leið í lista
 fylgja leið tl baka
 koma með hlut til baka
  ```
-
+## Flæðiritið okkar:
 ![Flæðirit](./img/diagram.png)
