@@ -5,69 +5,60 @@ Hér skal vera dagbók frá öllum í verkefninu
 Hér setjum við kóða:
 Munið að taka þennan kóða út og ykkar inn. :-)
 ```
-
-*/ 
-Hér er dæmi um multitask með task
-*/
-vex::brain Brain;
-
-int myTask() {
-    int count = 0;
-  
-    while(1) {
-      Brain.Screen.printAt( 10, 60, "I am another task %d", count++ );
-      
-      // don't hog the cpu :)
-      vex::task::sleep( 25 );
-    }
-  
-    return(0);
-}
-
+#include "robot-config.h"
 int main() {
-    int count = 0;
-
-    // this is similar to startTask
-    vex::task t1( myTask );
-    vex::task t2( myTask );
-  
-    while(1) {
-      Brain.Screen.printAt( 10, 30, "Hello from main %d", count++ );
-
-      // Allow other tasks to run
-      vex::task::sleep(10);
+bool s=true;
+while (s) {
+    Vision.takeSnapshot(SIG_7);
+    if (Vision.largestObject.exists && Vision.largestObject.width>5 && Vision.largestObject.width<100) {
+        Brain.Screen.setPenColor(vex::color::white);
+        Brain.Screen.setFillColor(vex::color::blue);
+        Brain.Screen.drawRectangle(0,0, 480, 240);
+        Brain.Screen.setCursor(2,6);
+        Brain.Screen.setFont(vex::fontType::mono40);
+        Brain.Screen.print("Forward");
+        if (Vision.largestObject.centerX>120 && Vision.largestObject.centerX<170){
+            if (Vision.largestObject.width > 70){
+                Motor2.spin(vex::directionType::fwd,3,velocityUnits::pct);
+                Motor1.spin(vex::directionType::fwd,3,velocityUnits::pct);
+                task::sleep(100);
+                Klo.rotateTo(180,rotationUnits::deg,10,velocityUnits::pct);
+                Motor2.spin(vex::directionType::rev,20,velocityUnits::pct);
+                Motor1.spin(vex::directionType::fwd,20,velocityUnits::pct);
+                task::sleep(500);
+                Klo.rotateTo(92,rotationUnits::deg,10,velocityUnits::pct);
+                Motor1.stop();
+                Motor2.stop();
+                break;
+            }
+            else if (Vision.largestObject.width > 50){
+                Motor2.spin(vex::directionType::rev,10,velocityUnits::pct);
+                Motor1.spin(vex::directionType::fwd,10,velocityUnits::pct);
+            }
+            else{
+                Motor2.spin(vex::directionType::rev,50,velocityUnits::pct);
+                Motor1.spin(vex::directionType::fwd,50,velocityUnits::pct);
+            }
+        }
+        //turn left
+        else if(Vision.largestObject.centerX>170){
+            Motor2.spin(vex::directionType::fwd,7,velocityUnits::pct);
+            Motor1.spin(vex::directionType::fwd,7,velocityUnits::pct);
+        }
+        //turn right
+        else if(Vision.largestObject.centerX<120){
+            Motor2.spin(vex::directionType::rev,7,velocityUnits::pct);
+            Motor1.spin(vex::directionType::rev,7,velocityUnits::pct);
+        }
+        
     }
+    	else {
+            Motor2.stop();
+            Motor1.stop();
+            Brain.Screen.print(":(");
+        }
+    task::sleep(100);
+}
 }
 
-/*
-Hér er dæmi um þráðavinnslu
-*/
-vex::brain Brain;
-
-int myThread() {
-    int count = 0;
-  
-    while(1) {
-      Brain.Screen.printAt( 10, 60, "I am the other task %d", count++ );
-      
-      // don't hog the cpu :)
-      vex::this_thread::sleep_for( 25 );
-    }
-  
-    return(0);
-}
-
-int main() {
-    int count = 0;
-
-    // this is similar to startTask
-    vex::thread t( myThread );
-  
-    while(1) {
-      Brain.Screen.printAt( 10, 30, "Hello from main %d", count++ );
-
-      // Allow other tasks to run
-      vex::this_thread::sleep_for(10);
-    }
-}
 ```
