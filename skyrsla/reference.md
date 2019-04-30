@@ -1,3 +1,3 @@
 # Heimildaskrá
 ## Vélbúnaðar upplýsingar:
- https://www.vexrobotics.com/vexedr/products/v5-products/276-6500.html#Kit_Contents
+ https://www.vexrobotics.com/vexedr/products/v5-kits/276-7010.html
