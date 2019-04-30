@@ -1,3 +1,3 @@
 # Heimildaskrá
-Hér skal gera heimildaskrá þ.e þið skráið niður allar vefsíður sem þið notið til að afla ykkur upplýsinga
-til að leysa verkefnið. Textan fyrir ofan eyðið þið og setjið ykkar í staðin
+## Vélbúnaðar upplýsingar:
+ https://www.vexrobotics.com/vexedr/products/v5-products/276-6500.html#Kit_Contents
