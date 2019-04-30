@@ -2,8 +2,7 @@
 ## Dagbækur
 Hér skal vera dagbók frá öllum í verkefninu
 ## Kóði
-Hér setjum við kóða:
-Munið að taka þennan kóða út og ykkar inn. :-)
+Hérna er kóðinn okkar
 ```
 #include "robot-config.h"
 int main() {
