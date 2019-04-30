@@ -1,6 +1,7 @@
 # Viðauki
 ## Dagbækur
-Hér skal vera dagbók frá öllum í verkefninu
+### Ágúst dagbók: https://github.com/BjarkiThorJons/rob2b3u/blob/master/skyrsla/dagbok_Agust.md
+### Bjarki dagbók: https://github.com/BjarkiThorJons/rob2b3u/blob/master/skyrsla/dagbok_Bjakri.md
 ## Kóði
 Hérna er kóðinn okkar
 ```
