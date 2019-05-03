@@ -2,4 +2,4 @@
 <b> Ágúst Örn Eiðsson <br>
 Bjarki Þór Jónsson </b><br>
 Vélmenni II <br>
-Vélmennið okkar finnur hlut eftir lit með myndavél og tekur hann upp með kló
+VÉLmENnIð oKkaR finNur HluT eftir lIt með mYNDavÉL og teKUR haNN uPp MEÐ Kló
