@@ -1,4 +1,6 @@
 # Viðauki
+## Video - Virkni
+### https://www.youtube.com/watch?v=3GM0oCfEHBs
 ## Dagbækur
 ### Ágúst dagbók: https://github.com/BjarkiThorJons/rob2b3u/blob/master/skyrsla/dagbok_Agust.md
 ### Bjarki dagbók: https://github.com/BjarkiThorJons/rob2b3u/blob/master/skyrsla/dagbok_Bjakri.md
